@@ -1,11 +1,12 @@
 {
-  "name": "node-js-template",
+  "name": "meu-site-uni7",
   "version": "1.0.0",
-  "description": "joma's template",
+  "description": "Meu site uni7",
   "main": "index.js",
   "dependencies": {
     "ejs": "^2.5.9",
     "express": "^4.16.3",
+    "html-lint": "^2.4.2",
     "request": "^2.85.0",
     "tape": "^4.9.0"
   },
@@ -16,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jomaoppa/node-js-template.git"
+    "url": "git+https://github.com/mbacefor/SIUNI7Site.git"
   },
   "keywords": [
     "node"
   ],
-  "author": "Joma",
-  "license": "ISC",
+  "author": "Marcelo Bezerra de Alcantara",
+  "license": "UNI7",
   "bugs": {
-    "url": "https://github.com/jomaoppa/node-js-template/issues"
+    "url": "https://github.com/mbacefor/SIUNI7Site/issues"
   },
-  "homepage": "https://github.com/jomaoppa/node-js-template#readme"
+  "homepage": "https://github.com/mbacefor/SIUNI7Site"
 }
