@@ -6,7 +6,8 @@ Essa aplicação suporta a versão inicial do Heroku [Getting Started with Node 
 
 ## Running Locally
 
-$ git clone https://github.com/mbacefor/SIUNI7Site.git
+```
+$ git clone https://github.com/mbacefor/SIUNI7Site.git #
 $ npm install
 $ npm start
 ```
