@@ -1,64 +1,56 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <title>Minha Página - Marcelo Bezerra</title>
+</head>
+<body>
+  <header>
+    <h1>Homepage</h1>
+  </header>
+  <div contenteditable="true">
+    Edite-me...
+  </div>
+  <section>
+    <h2>Dados Pessoais </h2>
+    <p>Meu nome é <strong>Marcelo Bezerra de Alcântara</strong> e nasci na cidade de Fortaleza em 1974.</p>
+    <section>
+      <h3>Família</h3>
+      <p>Sou casadado com a <em> Liliane Medeiros </em> e tenho dois filhos: <em>Matheus e Yasmim.</em></p>
+    </section>
+  </section>
+  <section>
+    <h2>Dados Profissionais </h2>
+    <p>Atualmente desempenho duas atividades profissionais</p>
+    <p>Analista de Sistema e Professor Universitário</p>
+    <details>
+      <summary>SERPPRO</summary>
+      <p>Atualmente trabalho no SERPRO</p>
+    </details>
+    <details>
+      <summary>UNI7</summary>
+      <p>Atualmente trabalho no UNi7</p>
+    </details>
+  </section>
+  <aside>
+    <h3>Interesses</h3>
+    <p>Gosto de Caminhar.</p>
+  </aside>
+  <section>
+    <h2>Formulário de Contato</h2>
+    <form>
+      <label for="destino"> e-mail:
+        <input name="destino" spellcheck="true" type="email" placeholder="e-mail de contato" required />
+      </label>
+      <input name="valuex" type="number" value="12.4" step="0.2" min="0" max="20" />
+      <input name="valuex" type="color" />
+      <input name="CEP" id="CEP" required pattern="\d{5}-?\d{3}" />
+    </form>
+  </section>
+  <p />
+  <footer>Desenvolvido por Marcelo Bezerra Bezerra em <time>08/06/2021</time>
+  </footer>
+</body>
 
-    <title>Marcelo Bezerra</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Minha vida</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#wan">Button1</a></li>
-            <li><a href="#too">Button2</a></li>
-            <li><a href="#phree">Button3</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Joma is a Douche</h1>
-        <img id="headshot" src="headshot.jpg" alt="Mountain View">
-        <p class="lead">He will never get a girlfriend.<br> Not with that face.</p>
-      </div>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 </html>
