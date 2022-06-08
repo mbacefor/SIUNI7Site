@@ -13,17 +13,17 @@ h1 {
   font-family: 'Crete Round', serif;
   font-weight: bold;
   color: #444;
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 
 h2 {
-  font-weight: 300;
-  color: #444;
-  font-size: 55px;
+  /*font-weight: 250px;*/
+  color: black;
+  font-size: 45px;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -75,16 +75,15 @@ small {
 
 .wrapper {
   margin: 0 auto;
-  padding: 0 10px;
-  width: 940px;
+  padding: 0 20px;
+  width: 1024px;
 }
 header {
-  height: 120px;
+  height: 40px;
 }
 
 header h1 {
   float: left;
-  margin-top: 32px;
 }
 
 header h1 .color {
@@ -98,7 +97,7 @@ header nav {
 header nav ul li {
   float: left;
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 header nav ul li a {
@@ -110,13 +109,13 @@ header nav ul li a {
 }
 
 #image-principal {
-  height: 580px;
+  height: 300px;
   padding-top: 1px;
   background: #e8eced url('../images/marcelo.jpg') no-repeat center;
 }
 
-#image-principal h2 {
-  margin: 30px 0 5px 0;
+#image-principal div h2 {
+  margin: 250px 0 5px 0;
   text-align: left;
   vertical-align: bottom;
 }
@@ -139,7 +138,7 @@ header nav ul li a {
 }
 
 #profissoes ul {
-  margin: 80px 0;
+  margin: 20px 0;
 }
 
 #profissoes ul li {
